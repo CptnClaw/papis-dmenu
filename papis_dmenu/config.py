@@ -50,15 +50,15 @@ configuration_settings = {
     "dmenu-gui": {
         "lines": 10,
         "case_insensitive": True,
-        "bottom": True,
-        "font": 'monospace-14',
-        "background": '#000000',
-        "foreground": '#55ff55',
-        "background_selected": '#005500',
-        "foreground_selected": '#f0f0f0',
+        "bottom": False,
+        "font": 'UbuntuMono Nerd Font:style=Regular Font:size=14',
+        "background": '#1f2937',
+        "foreground": '#dddddd',
+        "background_selected": '#82aaff',
+        "foreground_selected": '#212121',
         "header-format":
-            '{doc[year]:<4}| {doc[title]:<80.80}|:| {doc[author]}',
-        "editor": "gedit",
+            '{doc[year]:<4} | {doc[title]:<120.120} | {doc[author]}',
+        "editor": "subl",
     }
 }
 

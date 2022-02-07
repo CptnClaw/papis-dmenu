@@ -24,6 +24,10 @@ Just use it as a
 Installation
 ------------
 
+::
+
+  pip install -e .
+
 There is a version in PyPi
 
 ::
